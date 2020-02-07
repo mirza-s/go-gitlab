@@ -521,7 +521,8 @@ type UpdateMergeRequestOptions struct {
 	AllowCollaboration *bool   `url:"allow_collaboration,omitempty" json:"allow_collaboration,omitempty"`
 }
 
-// UpdateMergeRequest updates an existing project milestone.
+// UpdateMergeRequest updates an existing merge request.
+// You can change the target branch, title, or even close the MR.
 //
 // GitLab API docs:
 // https://docs.gitlab.com/ce/api/merge_requests.html#update-mr
